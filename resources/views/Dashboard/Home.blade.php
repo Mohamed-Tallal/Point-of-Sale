@@ -9,12 +9,12 @@
                       <div class="inner">
                           <h3>{{$clients}}</h3>
 
-                          <p>Client</p>
+                          <p>@lang('site.Client')</p>
                       </div>
                       <div class="icon">
                           <i class="ion ion-bag"></i>
                       </div>
-                      <a href="{{route('client.index')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                      <a href="{{route('client.index')}}" class="small-box-footer">@lang('site.More info') <i class="fas fa-arrow-circle-right"></i></a>
                   </div>
               </div>
               <!-- ./col -->
@@ -24,12 +24,12 @@
                       <div class="inner">
                           <h3>{{$admins}}</h3>
 
-                          <p>Admin</p>
+                          <p>@lang('site.Admin')</p>
                       </div>
                       <div class="icon">
                           <i class="ion ion-stats-bars"></i>
                       </div>
-                      <a href="{{route('admin.index')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                      <a href="{{route('admin.index')}}" class="small-box-footer">@lang('site.More info') <i class="fas fa-arrow-circle-right"></i></a>
                   </div>
               </div>
               <!-- ./col -->
@@ -39,12 +39,12 @@
                       <div class="inner">
                           <h3>{{$product}}</h3>
 
-                          <p>Product</p>
+                          <p>@lang('site.Product')</p>
                       </div>
                       <div class="icon">
                           <i class="ion ion-person-add"></i>
                       </div>
-                      <a href="{{route('product.index')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                      <a href="{{route('product.index')}}" class="small-box-footer">@lang('site.More info')<i class="fas fa-arrow-circle-right"></i></a>
                   </div>
               </div>
               <!-- ./col -->
@@ -54,12 +54,12 @@
                       <div class="inner">
                           <h3>{{$category}}</h3>
 
-                          <p>Category</p>
+                          <p>@lang('site.Category')</p>
                       </div>
                       <div class="icon">
                           <i class="ion ion-pie-graph"></i>
                       </div>
-                      <a href="{{route('category.index')}}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                      <a href="{{route('category.index')}}" class="small-box-footer">@lang('site.More info') <i class="fas fa-arrow-circle-right"></i></a>
                   </div>
               </div>
               <!-- ./col -->
@@ -68,7 +68,7 @@
         <div class="box box-solid">
 
             <div class="box-header">
-                <h3 class="box-title">Sales Graph</h3>
+                <h3 class="box-title">@lang('site.Sales Graph')</h3>
             </div>
             <div class="box-body border-radius-none">
                 <div class="chart" id="line-chart" style="height: 250px;"></div>

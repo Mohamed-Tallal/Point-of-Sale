@@ -27,7 +27,9 @@ class ClientOrController extends Controller
         $order =Order::find($id);
         $totalPrice = $order->totalPrice;
         $orders = $order->products;
-        return view('Dashboard.order.show',compact('orders','totalPrice'));
+        $pageName = 'CheckOut Page';
+        $routName = 'Home / Order / CheckOut';
+        return view('Dashboard.order.show',compact('orders','totalPrice','routName','pageName'));
     }
 
 

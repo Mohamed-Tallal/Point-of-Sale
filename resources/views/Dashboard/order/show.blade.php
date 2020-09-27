@@ -9,7 +9,7 @@
                                <table class="table table-hover">
                                    <thead>
                                    <tr>
-                                       <th scope="col">#</th>
+                                   <th scope="col">@lang('site.ID')</th>
                                        <th scope="col">@lang('site.Product')</th>
                                        <th scope="col">@lang('site.Price')</th>
                                        <th scope="col">@lang('site.Quantity')</th>

@@ -48,9 +48,10 @@
                                     @enderror
                                 </div>
                                 <div class="form-group">
-                                    <select class="form-control" name="category_id">
 
-                                        <option value=" ">Default Value </option>
+                                <label for="exampleInputEmail1">@lang('site.Category')</label>
+                                    <select class="form-control" name="category_id">
+                                        <option value=" ">@lang('site.Select Category') </option>
                                         @foreach($category as $cat)
                                             <option value="{{$cat ->id}}">{{$cat->name}}</option>
                                         @endforeach
@@ -61,7 +62,7 @@
                                     @enderror
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                                    <label for="exampleFormControlTextarea1">@lang('site.Description')</label>
                                     <textarea class="form-control" name="description" id="exampleFormControlTextarea1" rows="4">{{$products->description}}"</textarea>
                                     @error('description')
                                     <small  class="form-text text-muted" style="color:red !important;">{{$message}}.</small>

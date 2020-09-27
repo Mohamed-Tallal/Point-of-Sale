@@ -26,10 +26,10 @@
                             <table class="table table-bordered">
                                 <thead>
                                 <tr>
-                                    <th>ID</th>
-                                    <th>Name</th>
-                                    <th>Email</th>
-                                    <th>Control</th>
+                                    <th>@lang('site.ID')</th>
+                                    <th>@lang('site.Name')</th>
+                                    <th>@lang('site.Email')</th>
+                                    <th>@lang('site.Control')</th>
                                 </tr>
                                 </thead>
                                 <tbody>

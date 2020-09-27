@@ -15,12 +15,12 @@
                             <table class="table table-bordered">
                                 <thead>
                                 <tr>
-                                    <th>ID</th>
-                                    <th>Client Name</th>
-                                    <th>Total Price</th>
-                                    <th>Statues Order</th>
-                                    <th>Created at</th>
-                                    <th>Control</th>
+                                    <th>@lang('site.ID')</th>
+                                    <th>@lang('site.Client Name')</th>
+                                    <th>@lang('site.Total Price')</th>
+                                    <th>@lang('site.Statues Order')</th>
+                                    <th>@lang('site.Created at')</th>
+                                    <th>@lang('site.Control')</th>
                                 </tr>
                                 </thead>
                                 <tbody>

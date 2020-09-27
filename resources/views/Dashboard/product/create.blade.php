@@ -47,6 +47,7 @@
                                                         @enderror
                                                     </div>
                                                     <div class="form-group">
+                                                    <label for="exampleInputEmail1">@lang('site.Category')</label>
                                                         <select class="form-control" name="category_id">
 
                                                             <option value=" ">@lang('site.Choose Category')</option>

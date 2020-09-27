@@ -6,7 +6,7 @@
             <form action="{{route('product.index')}}" method="get" class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2 w-25"  type="search" name="search" placeholder="Search" aria-label="Search">
                         <select class="form-control mr-sm-2 w-25" name="category_Name">
-                            <option value="">Select Category </option>
+                            <option value="">@lang('site.Choose Category') </option>
                             @foreach($category as $cat)
                                 <option value="{{$cat->id}}">{{$cat->name}}</option>
                             @endforeach
@@ -32,14 +32,14 @@
                         <table class="table table-bordered">
                         <thead>
                         <tr>
-                                    <th>ID</th>
-                                    <th>Name</th>
-                                    <th>Image</th>
-                                    <th>Price</th>
-                                    <th>Category</th>
-                                    <th>Store</th>
-                                    <th>Gain</th>
-                                    <th>Control</th>
+                                    <th>@lang('site.ID')</th>
+                                    <th>@lang('site.Name')</th>
+                                    <th>@lang('site.Image')</th>
+                                    <th>@lang('site.Price')</th>
+                                    <th>@lang('site.Category')</th>
+                                    <th>@lang('site.Store')</th>
+                                    <th>@lang('site.Gain')</th>
+                                    <th>@lang('site.Control')</th>
                         </tr>
                         </thead>
                         <tbody>

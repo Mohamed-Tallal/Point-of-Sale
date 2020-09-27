@@ -27,12 +27,12 @@
                             <table class="table table-bordered">
                                 <thead>
                                 <tr>
-                                    <th>ID</th>
-                                    <th>Name</th>
-                                    <th>Phone</th>
-                                    <th>Address</th>
-                                    <th>Add Order</th>
-                                    <th>Control</th>
+                                    <th>@lang('site.ID')</th>
+                                    <th>@lang('site.Name')</th>
+                                    <th>@lang('site.Phone')</th>
+                                    <th>@lang('site.Address')</th>
+                                    <th>@lang('site.Add Order')</th>
+                                    <th>@lang('site.Control')</th>
                                 </tr>
                                 </thead>
                                 <tbody>

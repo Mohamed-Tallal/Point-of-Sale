@@ -14,9 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]],
          function(){
+            Route::get('/','HomeController@index')->name('Admin.Dashboard')->middleware('auth');
 
     Route::prefix('Dashboard')->middleware('auth')->group(function () {
-
+        Route::get('/','HomeController@index')->name('Admin.Dashboard');
         Route::get('/Home','HomeController@index')->name('Admin.Dashboard');
         Route::resource('admin','AdminController')->except('show');
         Route::resource('category','CategoryController')->except('show');

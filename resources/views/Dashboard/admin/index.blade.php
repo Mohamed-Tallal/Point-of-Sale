@@ -7,7 +7,6 @@
                         <button class="btn btn-primary my-2 my-sm-0" type="submit"><i class="fas fa-search"></i> &nbsp;@lang('site.Search')</button>
                  @if(auth()->user()->hasPermission('users-create'))
                    <a href="{{route('admin.create')}}" class="btn btn-primary ml-3"><i class="fas fa-plus"></i>&nbsp; @lang('site.Add Admin')</a>
-
                  @else
                      <button class="btn btn-primary disabled ml-3"><i class="fas fa-plus"></i>&nbsp;@lang('site.Add Admin')</button>
                  @endif

@@ -3,7 +3,7 @@
 
 ## App Features
 
-Point Of Sales is an electronic cash register which saves valuabletime and energy of both customer and the workers and provides systematic transaction process for the goods purchased by the customers.
+Point Of Sales is an electronic cash register which saves valuable time and energy of both customer and the workers and provides systematic transaction process for the goods purchased by the customers.
 
 
 - Multi language (English and Arabic).
